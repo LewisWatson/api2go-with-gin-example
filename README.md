@@ -1,4 +1,5 @@
 # [api2go] with [gin] example
+[![Build Status](https://travis-ci.org/LewisWatson/api2go-with-gin-example.svg?branch=master)](https://travis-ci.org/LewisWatson/api2go-with-gin-example)
 
 This application, written in [go], demonstrates using [api2go] with the [gin].
 
