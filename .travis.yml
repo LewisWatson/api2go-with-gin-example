@@ -3,3 +3,6 @@ go:
 - 1.8
 - 1.9
 - master
+
+install:
+  - go get -tags=gingonic github.com/manyminds/api2go

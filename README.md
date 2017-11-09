@@ -5,10 +5,10 @@ This application, written in [go], demonstrates using [api2go] with the [gin].
 
 ## Build
 
-Dependencies are managed by the [dep] tool. To download dependencies to a `vendor` directory
+`go get` dependencies
 
 ```bash
-dep ensure
+go get -tags=gingonic github.com/manyminds/api2go
 ```
 
 With the dependencies downloaded, we can build the application:
