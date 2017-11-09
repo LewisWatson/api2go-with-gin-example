@@ -14,7 +14,7 @@ dep ensure
 With the dependencies downloaded, we can build the application:
 
 ```bash
-go build
+go build -tags=gingonic
 ```
 
 ### Run
@@ -22,7 +22,7 @@ go build
 Run the static binary:
 
 ```bash
-./crud_example
+./api2go-with-gin-example
 ```
 
 [go]: https://golang.org/ "The Go Programming Language"
