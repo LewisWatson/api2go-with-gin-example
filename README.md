@@ -1,4 +1,5 @@
 # [api2go] with [gin] example
+
 [![Build Status](https://travis-ci.org/LewisWatson/api2go-with-gin-example.svg?branch=master)](https://travis-ci.org/LewisWatson/api2go-with-gin-example)
 
 This application, written in [go], demonstrates using [api2go] with the [gin].
@@ -14,7 +15,7 @@ go get -tags=gingonic github.com/manyminds/api2go
 With the dependencies downloaded, we can build the application:
 
 ```bash
-go build
+go build -tags=gingonic
 ```
 
 ### Run
@@ -22,7 +23,7 @@ go build
 Run the static binary:
 
 ```bash
-./crud_example
+./api2go-with-gin-example
 ```
 
 [go]: https://golang.org/ "The Go Programming Language"
