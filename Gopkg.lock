@@ -38,10 +38,10 @@
   version = "v1.6.0"
 
 [[projects]]
+  branch = "master"
   name = "github.com/julienschmidt/httprouter"
   packages = ["."]
-  revision = "8c199fb6259ffc1af525cc3ad52ee60ba8359669"
-  version = "v1.1"
+  revision = "e1b9828bc9e5904baec057a154c09ca40fe7fae0"
 
 [[projects]]
   name = "github.com/labstack/echo"
@@ -118,6 +118,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "683d1cc2680d70149295cfdc406dedc2e7d2f39365e24f0c705376aa5eb4487f"
+  inputs-digest = "59504426b528f539c92b9710e7656001602e41b13bdb5531ae45e420c700591e"
   solver-name = "gps-cdcl"
   solver-version = 1
