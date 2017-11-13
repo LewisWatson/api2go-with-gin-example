@@ -1,10 +1,12 @@
 language: go
 go:
-- 1.8
-- 1.9
-- master
+  - 1.8
+  - 1.9
+  - master
 
-script: 
+install:
   - wget https://github.com/golang/dep/releases/download/v0.3.2/dep-linux-amd64 -O dep
   - dep ensure
+
+script: 
   - go build -tags=gingonic
